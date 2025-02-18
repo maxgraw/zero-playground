@@ -6,7 +6,7 @@
 			"persistent": true,
 			"cache": false
 		},
-		"generate": {},
-		"migrate": {}
+		"db:generate": {},
+		"db:migrate": {}
 	}
 }
