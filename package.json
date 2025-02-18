@@ -8,12 +8,10 @@
 		"db:generate": "turbo run generate",
 		"db:migrate": "turbo run migrate"
 	},
-	"peerDependencies": {
-		"typescript": "5.0.0"
-	},
 	"dependencies": {
 		"@rocicorp/zero": "0.15.2025021402",
-		"turbo": "2.4.2"
+		"turbo": "2.4.2",
+		"typescript": "5.0.0"
 	},
 	"devDependencies": {
 		"@types/bun": "^1.2.2"

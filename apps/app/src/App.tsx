@@ -5,13 +5,11 @@ import type { Schema } from "schema/client";
 function App() {
 	const z = useZero<Schema>();
 
-	const [users] = useQuery(z.query.users);
+	const [users] = useQuery(z.query.user);
 
 	const handle_insert = async () => {
-		z.mutate.users.upsert({
+		z.mutate.user.upsert({
 			id: crypto.randomUUID(),
-			first_name: "Max",
-			last_name: "Samuel",
 		});
 	};
 
