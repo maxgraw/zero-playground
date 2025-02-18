@@ -3,7 +3,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "zero-cache-dev -p src/client/index.ts",
-		"generate": "drizzle-kit generate"
+		"db:generate": "drizzle-kit generate"
 	},
 	"exports": {
 		"./client": {

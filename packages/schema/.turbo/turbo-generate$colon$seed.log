@@ -1,6 +1,0 @@
-
-[0m[2m[35m$[0m [2m[1mdrizzle-kit generate --custom --name=seed-users[0m
-[90mNo config path provided, using default 'drizzle.config.ts'[39m
-[90mReading config file '/home/maxgraw/Repos/zero-template/packages/schema/drizzle.config.ts'[39m
-Prepared empty file for your custom SQL migration!
-[[32m✓[39m] Your SQL migration file ➜ [1m[4m[34mdrizzle/0000_seed-users.sql[39m[24m[22m 🚀

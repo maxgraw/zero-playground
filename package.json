@@ -5,8 +5,8 @@
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev",
-		"generate": "turbo run generate",
-		"migrate": "turbo run migrate"
+		"db:generate": "turbo run generate",
+		"db:migrate": "turbo run migrate"
 	},
 	"peerDependencies": {
 		"typescript": "5.0.0"

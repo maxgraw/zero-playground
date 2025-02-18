@@ -2,7 +2,7 @@
 	"name": "migrate",
 	"type": "module",
 	"scripts": {
-		"migrate": "bun run ./src/index.ts"
+		"db:migrate": "bun run ./src/index.ts"
 	},
 	"dependencies": {
 		"drizzle-orm": "0.39.3",
