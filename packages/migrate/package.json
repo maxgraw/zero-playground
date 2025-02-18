@@ -1,0 +1,11 @@
+{
+	"name": "migrate",
+	"type": "module",
+	"scripts": {
+		"migrate": "bun run ./src/index.ts"
+	},
+	"dependencies": {
+		"drizzle-orm": "0.39.3",
+		"drizzle-kit": "0.30.4"
+	}
+}

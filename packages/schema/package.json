@@ -1,0 +1,22 @@
+{
+	"name": "schema",
+	"type": "module",
+	"scripts": {
+		"dev": "zero-cache-dev -p src/client/index.ts",
+		"generate": "drizzle-kit generate"
+	},
+	"exports": {
+		"./client": {
+			"types": "./src/client/index.ts",
+			"import": "./src/client/index.ts"
+		},
+		"./server": {
+			"types": "./src/server/index.ts",
+			"import": "./src/server/index.ts"
+		}
+	},
+	"dependencies": {
+		"drizzle-orm": "0.39.3",
+		"drizzle-kit": "0.30.4"
+	}
+}
